@@ -333,47 +333,6 @@ document.addEventListener("DOMContentLoaded", function() {
 // TABELA LOREL DPGP OURO
 document.addEventListener("DOMContentLoaded", function() {
   // URL do arquivo txt
-  var txtFile = 'dados/dados_loreal_dpgp_ouro1.txt';
-
-  // Cria um objeto XMLHttpRequest
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', txtFile, true);
-
-  xhr.onload = function() {
-    if (xhr.status === 200) {
-      // Obtém o texto do arquivo
-      var txtData = xhr.responseText;
-
-      // Divide o texto em linhas (cada linha é separada por uma nova linha)
-      var lines = txtData.split('\n');
-      var tableBody = document.querySelector("#dados_loreal_dpgp_ouro1 tbody");
-
-      // Itera sobre cada linha
-      lines.forEach(function(line) {
-        // Divide a linha em colunas com base na tabulação
-        var columns = line.split('\t');
-
-        // Cria uma nova linha na tabela
-        var row = document.createElement('tr');
-
-        // Adiciona cada coluna à linha
-        columns.forEach(function(column) {
-          var cell = document.createElement('td');
-          cell.textContent = column;
-          row.appendChild(cell);
-        });
-
-        // Adiciona a linha ao corpo da tabela
-        tableBody.appendChild(row);
-      });
-    }
-  };
-
-  xhr.send();
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  // URL do arquivo txt
   var txtFile = 'dados/dados_loreal_dpgp_ouro.txt';
 
   // Cria um objeto XMLHttpRequest
@@ -440,7 +399,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var tableBody = document.querySelector("#dados_loreal_dpgp_prata tbody");
 
       // Itera sobre cada linha
-      lines.forEach(function(line) {
+      lines.forEach(function(line, index) {
         // Divide a linha em colunas com base na tabulação
         var columns = line.split('\t');
 
@@ -454,6 +413,14 @@ document.addEventListener("DOMContentLoaded", function() {
           row.appendChild(cell);
         });
 
+        // Adiciona a classe 'bold-data-row' às linhas desejadas
+        if (index === 0 ||              // Primeira linha
+          index === 1 ||              // Segunda linha
+          // index === lines.length - 2 || // Penúltima linha
+          index === lines.length - 1) { // Última linha
+        row.classList.add('bold-data-row');
+      }
+        
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
       });
@@ -482,7 +449,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var tableBody = document.querySelector("#dados_loreal_dpgp_bronze tbody");
 
       // Itera sobre cada linha
-      lines.forEach(function(line) {
+      lines.forEach(function(line, index) {
         // Divide a linha em colunas com base na tabulação
         var columns = line.split('\t');
 
@@ -496,6 +463,14 @@ document.addEventListener("DOMContentLoaded", function() {
           row.appendChild(cell);
         });
 
+        // Adiciona a classe 'bold-data-row' às linhas desejadas
+        if (index === 0 ||              // Primeira linha
+          index === 1 ||              // Segunda linha
+          // index === lines.length - 2 || // Penúltima linha
+          index === lines.length - 1) { // Última linha
+        row.classList.add('bold-data-row');
+      }
+        
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
       });
