@@ -141,12 +141,12 @@ h4 {
 
 #tab_colunas {
     font-family: 'Travel';
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .valor_quantidade {
     font-family: 'Travel';
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .condicoes_pagamento {
@@ -207,7 +207,15 @@ th, td {
     padding: 8px;
 }
 
+.bold-data-row td {
+    font-family: 'FuturaBold';
+}
+
 /* Estilos para as colunas */
+.col-thin {
+    width: 10%; /* Largura menor para as colunas das extremidades */
+}
+
 .col-small {
     width: 20%; /* Largura menor para as colunas das extremidades */
 }
