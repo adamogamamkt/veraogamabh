@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 33.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #009ee0;
+      }
+
+      .cls-4 {
+        fill: #e30016;
+      }
+
+      .cls-5 {
+        fill: #000200;
+      }
+    </style>
+  </defs>
+  <path class="cls-5" d="M50,33.34H0V0h50v33.34ZM.02,33.32h49.96V.02H.02v33.3Z"/>
+  <rect class="cls-4" x=".01" y="25" width="49.98" height="8.33"/>
+  <rect class="cls-3" x=".01" y=".01" width="16.66" height="16.66"/>
+  <rect class="cls-2" x="16.67" y=".01" width="33.32" height="8.33"/>
+  <rect class="cls-4" x="16.67" y="8.34" width="33.32" height="8.33"/>
+  <rect class="cls-2" x=".01" y="16.67" width="49.98" height="8.33"/>
+  <polygon class="cls-1" points="8.34 3.9 13.47 12.78 3.21 12.78 5.78 8.34 8.34 3.9"/>
+</svg>

@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'Travel';
+    src: url('../fonts/TravelPosterSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/futura-pt-book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../fonts/futura-pt-bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.3em;
+    color: #000;
+}
+
+h1, h4 {
+    font-family: 'Travel', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: #000;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo_fornecedor {
+    width: 15%;
+}
+
+.integral_medica {
+    width: 20%;
+}
+
+.logo_boticario {
+    width: 35%;
+}
+
+.btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 150px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    transition: background-color 0.3s, filter 0.3s, opacity 0.3s;
+}
+
+.btn-custom img {
+    width: 35px;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+
+.estados img {
+    width: 5%;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+#tab-sunless, #tab-moskitoff, #tab-australian, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold, #tab-cenoura_bronze {
+    font-family: 'Travel';
+    background-color: #79c9d1;
+    color: white;
+    font-size: 2em;
+}
+
+#tab-moskitoff {
+    background-color: #e0712b; /* Moskitoff */
+}
+
+#tab-australian {
+    background-color: red;
+}
+
+#tab-negrarosa {
+    background-color: #EF5A85;
+}
+
+#tab-sanavita {
+    background-color: #971C81;
+}
+
+#tab-loreal_dpgp_ouro {
+    background-color: gold;
+    color: #000;
+}
+
+#tab-loreal_dpgp_prata {
+    background-color: silver;
+    color: #000;
+}
+
+#tab-loreal_dpgp_bronze {
+    background-color: #DC7D45;
+}
+
+#tab-integral_medica {
+    background-color: #ED1C24;
+}
+
+#tab-australian_gold {
+    background-color: #876137;
+}
+
+#tab-cenoura_bronze {
+    background-color: #f96c03;
+}
+
+.sub-titulo-tabela {
+    font-family: 'Futura', sans-serif;
+    font-size: 0.7em;
+}
+
+.fonte_tabela {
+    font-size: 0.8em;
+}
+
+#tab_colunas {
+    font-family: 'Travel';
+    font-size: 1.3em;
+}
+
+.valor_quantidade {
+    font-family: 'Travel';
+    font-size: 1.3em;
+}
+
+.condicoes_pagamento {
+    font-family: 'Travel';
+    font-size: 1.5em;
+}
+
+.condicoes_box {
+    font-family: 'FuturaBold';
+}
+
+.abaixa {
+    margin-bottom: -30px;
+}
+
+
+
+.btn-sunless, .btn-moskitoff, .btn-australian {
+    font-family: 'FuturaBold';
+    background-color: #79c9d1;
+    color: #fff;
+}
+
+.btn-moskitoff {
+    background-color: #FF760E;
+}
+
+.btn-australian {
+    background-color: red;
+}
+
+.banner-video {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Define a altura do banner */
+    overflow: hidden;
+}
+
+.banner-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: auto; /* Ajusta a altura automaticamente */
+    min-height: 100%; /* Garante que o vídeo cubra a altura */
+    object-fit: cover; /* Cobre todo o container */
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Estilos para as colunas */
+.col-small {
+    width: 20%; /* Largura menor para as colunas das extremidades */
+}
+
+.col-large {
+    width: 60%; /* Largura maior para a coluna do meio */
+}
+
+.custom-row {
+    background-color: #f8e1a0; /* Cor de fundo amarelo claro */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 15px; /* Espaçamento interno */
+}
+
+.custom-heading {
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas do <h4> */
+    margin-bottom: 0.5rem; /* Ajusta a margem inferior do <h4> */
+}
+.custom-paragraph {
+    line-height: 1; /* Ajusta o espaçamento entre linhas do <p> */
+    margin-bottom: 0.7rem; /* Remove a margem inferior do <p> */
+}
+
+.img-responsive {
+    max-width: 150px; /* Define a largura máxima da imagem */
+    width: 100%; /* Faz com que a imagem se ajuste à largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/* BOTÕES HOME */
+.btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 150px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, filter 0.3s, opacity 0.3s;
+}
+
+.btn-custom img {
+    width: 50%;
+    height: auto;
+    transition: filter 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.negrarosa img {
+    width: 40%;
+}
+
+.integralmedica img {
+    width: 60%;
+}
+
+.australiangold img {
+    width: 70%;
+}
+
+/* Efeito de hover para o botão */
+.btn-custom:hover {
+    background-color: transparent; /* Torna a cor de fundo visível */
+    opacity: 1; /* Remove a transparência ao passar o mouse */
+}
+
+.btn-custom:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo ao passar o mouse */
+    z-index: 0;
+}
+
+.btn-custom:hover img {
+    filter: invert(1);  /* Altera a cor do SVG ao passar o mouse */
+}
+
+/* Estilos específicos para cada botão */
+.btn-1 {
+    background-image: url('../images/bg_botao_01.jpg');
+}
+
+.btn-2 {
+    background-image: url('../images/bg_botao_02.jpg');
+}
+
+.btn-3 {
+    background-image: url('../images/bg_botao_03.jpg');
+}
+
+.btn-4 {
+    background-image: url('../images/bg_botao_04.jpg');
+}
+
+.btn-5 {
+    background-image: url('../images/bg_botao_05.jpg');
+}
+
+.btn-6 {
+    background-image: url('../images/bg_botao_06.jpg');
+}
+
+.btn-7 {
+    background-image: url('../images/bg_botao_07.jpg');
+}
+
+.btn-8 {
+    background-image: url('../images/bg_botao_08.jpg');
+}
+
+.btn-9 {
+    background-image: url('../images/bg_botao_09.jpg');
+}
+
+/* Cor de fundo ao passar o mouse */
+.btn-1:hover::before {
+    background-color: rgba(174, 154, 100, 0.8); /* Loreal DPGP */
+}
+
+.btn-2:hover::before {
+    background-color: rgba(214, 113, 43, 0.8); /* Moskitoff */
+}
+
+.btn-3:hover::before {
+    background-color: rgba(239, 90, 133, 0.8); /* Negra Rosa */
+}
+
+.btn-4:hover::before {
+    background-color: rgba(151, 28, 129, 0.8); /* Sanavita */
+}
+
+.btn-5:hover::before {
+    background-color: rgba(121, 201, 209, 0.8); /* Sunless */
+}
+
+.btn-6:hover::before {
+    background-color: rgba(174, 154, 100, 0.8); /* Loreal LBD */
+}
+
+.btn-7:hover::before {
+    background-color: rgba(237, 28, 36, 0.8); /* Integral Médica */
+}
+
+.btn-8:hover::before {
+    background-color: rgba(135, 97, 55, 0.8); /* Australian Gold */
+}
+
+.btn-9:hover::before {
+    background-color: rgba(249, 108, 3, 0.8); /* Cenoura&Bronze */
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .banner-video {
+        height: 250px; /* Ajusta a altura para telas menores */
+    }
+
+    .banner-video video {
+        height: 250px; /* Ajusta a altura do vídeo para telas menores */
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .fonte_tabela {
+        font-size: 0.6em;
+    }
+
+    .img-responsive {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo_fornecedor {
+        width: 30%;
+    }
+
+    .integral_medica {
+        width: 35%;
+    }
+
+    .logo_boticario {
+        width: 35%;
+    }
+
+    .btn-custom img {
+        width: 30%;
+    }
+}
+
+/* SEPARADOR */
+.separator-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Espaçamento entre as tabelas */
+}
+
+.separator-text::before,
+.separator-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd; /* Linha antes e depois do SVG */
+}
+
+.separator-text img {
+    margin: 0 10px; /* Espaçamento ao redor do SVG */
+    height: 24px; /* Ajuste a altura do SVG conforme necessário */
+}
+
+.separator-text:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator-text:not(:empty)::after {
+    margin-left: .25em;
+}
