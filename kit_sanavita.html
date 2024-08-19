@@ -19,29 +19,115 @@
     <div class="container text-center">
         
         <div id="header-placeholder"></div>
-
-        <!-- <h1 class="abaixa"><span class="estados"><img class="img-fluid logo mb-5" src="images/rj.svg" alt="Verão Gama 2024">Rio de Janeiro</span></h1> -->
        
         <!-- MARCA FORNECEDOR -->
         <div>
             <div class="row mt-5">
                 <div class="col-12">
-                    <img class="img-fluid logo_fornecedor mb-3" src="images/logo_farmax.svg" alt="Farmax">
+                    <img class="img-fluid integral_medica mb-3" src="images/logo_farmax.svg" alt="Integral Médica">
                 </div>
             </div>
         </div>
-        
-        <!-- TABELA DE PRODUTOS -->
+
+        <!--CABEÇALHO-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="tab-sanavita" class="p-1 mb-2 rounded">KIT VITAMINAS <span class="sub-titulo-tabela"> (Mix Sugerido)</span></div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="p-3 mb-2 bg-success valor_quantidade text-white rounded"><i class="bi bi-coin"></i> Valor estimado: R$ 400,00 (preço final)</div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
         <div class="fonte_tabela table-responsive">
             <table class="table table-striped table-bordered table-hover" id="dados_sanavita_vitaminas">
                 <thead>
-                    <tr >
-                        <th id="tab-sanavita" colspan="3">KIT SANAVITA VITAMINAS<span class="sub-titulo-tabela"> (Mix Obrigatório)</span></th>
-                    </tr>
                     <tr>
-                        <th class="col-small" id="tab_colunas">CÓDIGO</th>
+                        <th class="col-thin" id="tab_colunas">CÓDIGO</th>
                         <th class="col-large" id="tab_colunas">PRODUTO</th>
-                        <th class="col-small" id="tab_colunas">QUANTIDADE</th>
+                        <th class="col-thin" id="tab_colunas">QUANT. SUGERIDA</th>
+                        <th class="col-small" id="tab_colunas">PREÇO FINAL<BR>NA AÇÃO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- AQUI ESTÃO OS DADOS DAS TABELAS -->
+                </tbody>
+                <thead>
+                    <tr >
+                        <th class="bg-danger text-white" colspan="4"><span style="font-family: FuturaBold;">Obs: </span>Venda múltipla de 02 unidades por sku. 50% do pedido será bonificado.</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <!--BOTÃO ANÁLISE DE CRÉDITO-->
+        <div class="row">
+            <div class="col-12">
+                <div class="p-3 mb-2 bg-warning">PEDIDO SUJEITO A ANÁLISE DE CRÉDITO</div>
+            </div>
+        </div>
+
+        <!--CONDIÇÕES DE PAGAMENTO-->
+        <div class="row">
+            <div class="col-12">
+                <div class="p-3 mb-2 condicoes_pagamento">Condições de pagamento</div>
+            </div>
+        </div>
+
+        <!--CONDIÇÕES-->
+        <div class="row lh-1">
+            
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                  </svg></p>Pagamento em 60 dias.</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                  </svg></p>1,2% de desconto para pagamento à vista.</div>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <!-- SEPARADOR -->
+    <div class="separator-text">
+        <img src="images/separador.svg" alt="Separador"> <!-- SVG ao invés do texto -->
+    </div>
+
+    <!-- KIT SANAVITA VITAL -->
+    <div class="container text-center">
+        
+        <div id="header-placeholder"></div>
+
+        <!--CABEÇALHO-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="tab-sanavita" class="p-1 mb-2 rounded">KIT VITAL <span class="sub-titulo-tabela"> (Mix Sugerido)</span></div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-success valor_quantidade text-white rounded"><i class="bi bi-coin"></i> Valor estimado: R$ 1.000,00</div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-info valor_quantidade text-white rounded"><i class="bi bi-bag-check-fill"></i> Quantidade mínima: 05 itens distintos</div>
+            </div>
+        </div>
+
+        <div class="fonte_tabela table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dados_sanavita_vital">
+                <thead>
+                    <tr>
+                        <th class="col-thin" id="tab_colunas">CÓDIGO</th>
+                        <th class="col-large" id="tab_colunas">PRODUTO</th>
+                        <th class="col-thin" id="tab_colunas">QUANT. SUGERIDA</th>
+                        <th class="col-small" id="tab_colunas">VALOR UNITÁRIO<br>COM 10% DESC.</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -57,17 +143,7 @@
             </div>
         </div>
 
-        <!--PROPOSTA-->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="p-3 mb-2 bg-success valor_quantidade text-white rounded"><i class="bi bi-coin"></i> Valor estimado: R$ 200,00</div>
-            </div>
-            <div class="col-md-6">
-                <div class="p-3 mb-2 bg-info valor_quantidade text-white rounded"><i class="bi bi-bag-check-fill"></i> Quantidade mínima: 05 itens</div>
-            </div>
-        </div>
-
-        <!--BOTÃO ANÁLISE DE CRÉDITO-->
+        <!--CONDIÇÕES DE PAGAMENTO-->
         <div class="row">
             <div class="col-12">
                 <div class="p-3 mb-2 condicoes_pagamento">Condições de pagamento</div>
@@ -77,39 +153,20 @@
         <!--CONDIÇÕES-->
         <div class="row lh-1">
             
-            <div class="col-md-2"></div>
-
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
                     <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                  </svg></p>5% DE DESCONTO para pagamento em 50 dias</div>
+                  </svg></p>10% de desconto para pagamento em 90 dias.</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                  </svg></p>11,2% de desconto para pagamento à vista.</div>
             </div>
         
-            <div class="col-md-2"></div>
-        
-        </div>
-
-        <!-- OFERTA -->
-        <div class="container my-5">
-            <div class="row align-items-center custom-row">
-                
-                <div class="col-md-1"></div>
-                
-                <!-- Coluna da Imagem (Imagem alinhada à direita dentro da coluna) -->
-                <div class="col-md-3 d-flex justify-content-end">
-                    <img src="images/oferta_moskitoff.png" class="img-fluid rounded img-responsive" alt="Oferta">
-                </div>
-                
-                <!-- Coluna da Legenda (Textos alinhados à esquerda) -->
-                <div class="col-md-7 text-start">
-                    <h4 class="custom-heading">Oferta Especial!</h4>
-                    <p class="custom-paragraph">Na compra de 2 kits ganhe uma bolsa térmica e um chapéu Moskitoff.</p>
-                </div>
-
-                <div class="col-md-1"></div>
-
-            </div>
         </div>
 
     </div>
@@ -124,114 +181,27 @@
         
         <div id="header-placeholder"></div>
 
-        <!-- <h1 class="abaixa"><span class="estados"><img class="img-fluid logo mb-5" src="images/rj.svg" alt="Verão Gama 2024">Rio de Janeiro</span></h1> -->
-       
-        <!-- TABELA DE PRODUTOS -->
-        <div class="fonte_tabela table-responsive mt-5">
-            <table class="table table-striped table-bordered table-hover" id="dados_sanavita_essencial">
-                <thead>
-                    <tr >
-                        <th id="tab-sanavita" colspan="3">KIT SANAVITA ESSENCIAL<span class="sub-titulo-tabela"> (Mix Sugerido)</span></th>
-                    </tr>
-                    <tr>
-                        <th class="col-small" id="tab_colunas">CÓDIGO</th>
-                        <th class="col-large" id="tab_colunas">PRODUTO</th>
-                        <th class="col-small" id="tab_colunas">QUANTIDADE</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- AQUI ESTÃO OS DADOS DAS TABELAS -->
-                </tbody>
-            </table>
-        </div>
-
-        <!--BOTÃO ANÁLISE DE CRÉDITO-->
+        <!--CABEÇALHO-->
         <div class="row">
-            <div class="col-12">
-                <div class="p-3 mb-2 bg-warning">PEDIDO SUJEITO A ANÁLISE DE CRÉDITO</div>
+            <div class="col-md-12">
+                <div id="tab-sanavita" class="p-1 mb-2 rounded">KIT ESSENCIAL <span class="sub-titulo-tabela"> (Mix Sugerido)</span></div>
             </div>
-        </div>
-
-        <!--PROPOSTA-->
-        <div class="row">
             <div class="col-md-6">
                 <div class="p-3 mb-2 bg-success valor_quantidade text-white rounded"><i class="bi bi-coin"></i> Valor estimado: R$ 500,00</div>
             </div>
             <div class="col-md-6">
-                <div class="p-3 mb-2 bg-info valor_quantidade text-white rounded"><i class="bi bi-bag-check-fill"></i> Quantidade mínima: 04 itens</div>
+                <div class="p-3 mb-2 bg-info valor_quantidade text-white rounded"><i class="bi bi-bag-check-fill"></i> Quantidade mínima: 03 itens distintos</div>
             </div>
         </div>
 
-        <!--BOTÃO ANÁLISE DE CRÉDITO-->
-        <div class="row">
-            <div class="col-12">
-                <div class="p-3 mb-2 condicoes_pagamento">Condições de pagamento</div>
-            </div>
-        </div>
-
-        <!--CONDIÇÕES-->
-        <div class="row lh-1">
-            
-            <div class="col-md-2"></div>
-
-            <div class="col-md-8">
-                <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                  </svg></p>3% DE DESCONTO para pagamento em 50 dias</div>
-            </div>
-        
-            <div class="col-md-2"></div>
-        
-        </div>
-
-        <!-- OFERTA -->
-        <div class="container my-5">
-            <div class="row align-items-center custom-row">
-                
-                <div class="col-md-1"></div>
-                
-                <!-- Coluna da Imagem (Imagem alinhada à direita dentro da coluna) -->
-                <div class="col-md-3 d-flex justify-content-end">
-                    <img src="images/oferta_moskitoff.png" class="img-fluid rounded img-responsive" alt="Oferta">
-                </div>
-                
-                <!-- Coluna da Legenda (Textos alinhados à esquerda) -->
-                <div class="col-md-7 text-start">
-                    <h4 class="custom-heading">Oferta Especial!</h4>
-                    <p class="custom-paragraph">Na compra de 2 kits ganhe uma bolsa térmica e um chapéu Moskitoff.</p>
-                </div>
-
-                <div class="col-md-1"></div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <!-- SEPARADOR -->
-    <div class="separator-text">
-        <img src="images/separador.svg" alt="Separador"> <!-- SVG ao invés do texto -->
-    </div>
-    
-    <!-- KIT SANAVITA VITAL -->
-    <div class="container text-center">
-        
-        <div id="header-placeholder"></div>
-
-        <!-- <h1 class="abaixa"><span class="estados"><img class="img-fluid logo mb-5" src="images/rj.svg" alt="Verão Gama 2024">Rio de Janeiro</span></h1> -->
-       
-        <!-- TABELA DE PRODUTOS -->
-        <div class="fonte_tabela table-responsive mt-5">
-            <table class="table table-striped table-bordered table-hover" id="dados_sanavita_vital">
+        <div class="fonte_tabela table-responsive">
+            <table class="table table-striped table-bordered table-hover" id="dados_sanavita_essencial">
                 <thead>
-                    <tr >
-                        <th id="tab-sanavita" colspan="3">KIT SANAVITA VITAL<span class="sub-titulo-tabela"> (Mix Sugerido)</span></th>
-                    </tr>
                     <tr>
-                        <th class="col-small" id="tab_colunas">CÓDIGO</th>
+                        <th class="col-thin" id="tab_colunas">CÓDIGO</th>
                         <th class="col-large" id="tab_colunas">PRODUTO</th>
-                        <th class="col-small" id="tab_colunas">QUANTIDADE</th>
+                        <th class="col-thin" id="tab_colunas">QUANT. SUGERIDA</th>
+                        <th class="col-small" id="tab_colunas">VALOR UNITÁRIO<br>COM 5% DESC.</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -247,17 +217,7 @@
             </div>
         </div>
 
-        <!--PROPOSTA-->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="p-3 mb-2 bg-success valor_quantidade text-white rounded"><i class="bi bi-coin"></i> Valor estimado: R$ 1.000,00</div>
-            </div>
-            <div class="col-md-6">
-                <div class="p-3 mb-2 bg-info valor_quantidade text-white rounded"><i class="bi bi-bag-check-fill"></i> Quantidade mínima: 08 itens</div>
-            </div>
-        </div>
-
-        <!--BOTÃO ANÁLISE DE CRÉDITO-->
+        <!--CONDIÇÕES DE PAGAMENTO-->
         <div class="row">
             <div class="col-12">
                 <div class="p-3 mb-2 condicoes_pagamento">Condições de pagamento</div>
@@ -267,39 +227,20 @@
         <!--CONDIÇÕES-->
         <div class="row lh-1">
             
-            <div class="col-md-2"></div>
-
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
                     <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                  </svg></p>5% DE DESCONTO para pagamento em 70 dias</div>
+                  </svg></p>5% de desconto para pagamento em 60 dias.</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-light condicoes_box"><p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                  </svg></p>6,2% de desconto para pagamento à vista.</div>
             </div>
         
-            <div class="col-md-2"></div>
-        
-        </div>
-
-        <!-- OFERTA -->
-        <div class="container my-5">
-            <div class="row align-items-center custom-row">
-                
-                <div class="col-md-1"></div>
-                
-                <!-- Coluna da Imagem (Imagem alinhada à direita dentro da coluna) -->
-                <div class="col-md-3 d-flex justify-content-end">
-                    <img src="images/oferta_moskitoff.png" class="img-fluid rounded img-responsive" alt="Oferta">
-                </div>
-                
-                <!-- Coluna da Legenda (Textos alinhados à esquerda) -->
-                <div class="col-md-7 text-start">
-                    <h4 class="custom-heading">Oferta Especial!</h4>
-                    <p class="custom-paragraph">Na compra de 2 kits ganhe uma bolsa térmica e um chapéu Moskitoff.</p>
-                </div>
-
-                <div class="col-md-1"></div>
-
-            </div>
         </div>
 
     </div>
