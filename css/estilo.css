@@ -81,7 +81,7 @@ h4 {
     margin-right: 5px;
 }
 
-#tab-sunless, #tab-moskitoff, #tab-australian, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold, #tab-cenoura_bronze {
+#tab-sunless, #tab-moskitoff, #tab-australian, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold, #tab-cenoura_bronze, #tab-scjohnson {
     font-family: 'Travel';
     background-color: #79c9d1;
     color: white;
@@ -128,6 +128,10 @@ h4 {
 
 #tab-cenoura_bronze {
     background-color: #f96c03;
+}
+
+#tab-scjohnson {
+    background-color: #DC2726;
 }
 
 .sub-titulo-tabela {
@@ -349,7 +353,7 @@ th, td {
 }
 
 .btn-2:hover::before {
-    background-color: rgba(214, 113, 43, 0.8); /* Moskitoff */
+    background-color: rgba(220, 39, 38, 0.8); /* SC Johnson */
 }
 
 .btn-3:hover::before {
