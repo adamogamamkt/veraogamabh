@@ -81,7 +81,7 @@ h4 {
     margin-right: 5px;
 }
 
-#tab-sunless, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-cenoura_bronze, #tab-scjohnson {
+#tab-sunless_mar, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-cenoura_bronze, #tab-scjohnson {
     font-family: 'Travel';
     background-color: #79c9d1;
     color: white;
@@ -90,6 +90,14 @@ h4 {
 
 #tab-moskitoff {
     background-color: #e0712b; /* Moskitoff */
+}
+
+#tab-sunless_sol {
+    background-color: #F3B116;
+}
+
+#tab-sunless_areia {
+    background-color: #D7C09F;
 }
 
 #tab-negrarosa {
