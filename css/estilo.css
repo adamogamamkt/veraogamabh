@@ -245,7 +245,7 @@ th, td {
 }
 
 .custom-row {
-    background-color: #f8e1a0; /* Cor de fundo amarelo claro */
+    background-color: #dcdcdc; /* Cor de fundo amarelo claro */
     border-radius: 10px; /* Borda arredondada */
     padding: 15px; /* Espaçamento interno */
 }
@@ -458,12 +458,8 @@ th, td {
         width: 30%;
     }
 
-    #tab-sunless_mar, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-cenoura_bronze, #tab-scjohnson {
+    #tab-sunless_mar, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-cenoura_bronze, #tab-scjohnson {
         font-size: 1.5em;
-    }
-
-    #tab-australian_gold_esmeralda, #tab-australian_gold_topazio {
-        font-size: 1.2em;
     }
 }
 
