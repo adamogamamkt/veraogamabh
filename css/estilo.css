@@ -49,6 +49,11 @@ h4 {
     margin-top: 10px;
 }
 
+.logo_footer_loreal {
+    width: 12%;
+    margin-top: 23px;
+}
+
 .logo_footer_boticario {
     width: 15%;
     margin-top: -6px;
@@ -60,6 +65,10 @@ h4 {
 
 .logo_australian_gold {
     width: 25%;
+}
+
+.logo_vichy_laroche {
+    width: 30%;
 }
 
 .btn-custom {
@@ -91,7 +100,7 @@ h4 {
     margin-right: 5px;
 }
 
-#tab-sunless_mar, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-cenoura_bronze, #tab-scjohnson {
+#tab-sunless_mar, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-cenoura_bronze, #tab-scjohnson, #tab-loreal_lbd_diamante, #tab-loreal_lbd_rubi {
     font-family: 'Travel';
     background-color: #79c9d1;
     color: white;
@@ -130,6 +139,15 @@ h4 {
 
 #tab-loreal_dpgp_bronze {
     background-color: #DC7D45;
+}
+
+#tab-loreal_lbd_diamante {
+    background-color: #36A4FE;
+}
+
+#tab-loreal_lbd_rubi {
+    background-color: #970019;
+    color: #fff;
 }
 
 #tab-integral_medica {
@@ -305,6 +323,10 @@ th, td {
     width: 70%;
 }
 
+.loreal_lbd img {
+    width: 90%;
+}
+
 /* Efeito de hover para o botão */
 .btn-custom:hover {
     background-color: transparent; /* Torna a cor de fundo visível */
@@ -456,6 +478,18 @@ th, td {
 
     .btn-custom img {
         width: 30%;
+    }
+
+    .loreal_lbd img {
+        width: 60%;
+    }
+
+    .australiangold img {
+        width: 50%;
+    }
+
+    .integralmedica img {
+        width: 40%;
     }
 
     #tab-sunless_mar, #tab-australian_gold_esmeralda, #tab-australian_gold_topazio, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-cenoura_bronze, #tab-scjohnson {
