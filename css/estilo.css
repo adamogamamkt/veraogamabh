@@ -44,12 +44,22 @@ h4 {
     width: 15%;
 }
 
+.logo_footer {
+    width: 8%;
+    margin-top: 10px;
+}
+
+.logo_footer_boticario {
+    width: 15%;
+    margin-top: -6px;
+}
+
 .integral_medica {
     width: 20%;
 }
 
-.logo_boticario {
-    width: 35%;
+.logo_australian_gold {
+    width: 25%;
 }
 
 .btn-custom {
@@ -173,8 +183,6 @@ h4 {
 .abaixa {
     margin-bottom: -50px;
 }
-
-
 
 .btn-sunless, .btn-moskitoff, .btn-australian {
     font-family: 'FuturaBold';
@@ -424,6 +432,20 @@ th, td {
         width: 30%;
     }
 
+    .logo_footer_boticario {
+        width: 30%;
+        margin-top: -1px;
+    }
+    
+    .logo_australian_gold {
+        width: 65%;
+    }
+
+    .logo_footer {
+        width: 15%;
+        margin-top: 10px;
+    }
+
     .integral_medica {
         width: 35%;
     }
@@ -434,6 +456,14 @@ th, td {
 
     .btn-custom img {
         width: 30%;
+    }
+
+    #tab-sunless_mar, #tab-sunless_sol, #tab-sunless_areia, #tab-moskitoff, #tab-negrarosa, #tab-sanavita, #tab-loreal_dpgp_ouro, #tab-loreal_dpgp_prata, #tab-loreal_dpgp_bronze, #tab-integral_medica, #tab-cenoura_bronze, #tab-scjohnson {
+        font-size: 1.5em;
+    }
+
+    #tab-australian_gold_esmeralda, #tab-australian_gold_topazio {
+        font-size: 1.2em;
     }
 }
 
