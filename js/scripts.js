@@ -932,10 +932,10 @@ document.addEventListener("DOMContentLoaded", function() {
           index === 1 ||              // Segunda linha
           index === 2 ||              // Terceira linha
           index === 3 ||              // Quarta linha
-          index === lines.length - 4 || // Antepenúltima linha
-          index === lines.length - 3 || // Antepenúltima linha
-          index === lines.length - 2 || // Penúltima linha
-          index === lines.length - 1) { // Última linha
+          index === 4 ||              // Quinta linha
+          index === 5 ||              // Sexta linha
+          index === 6 ||            // Sétima linha
+          index === 7) {           // Oitava linha
         row.classList.add('bold-data-row');
         }
         
@@ -988,8 +988,8 @@ document.addEventListener("DOMContentLoaded", function() {
           index === 3 ||              // Quarta linha
           index === 4 ||              // Quinta linha
           index === 5 ||              // Sexta linha
-          index === 6 ||              // Sétima linha
-          index === lines.length - 1) { // Última linha
+          index === 6 ||            // Sétima linha
+          index === 7) {           // Oitava linha
         row.classList.add('bold-data-row');
         }
         
@@ -1129,7 +1129,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0) { // Adiciona a classe às linhas 1 e 2
+        if (index === 0 || index === 1 || index === 2) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
         
