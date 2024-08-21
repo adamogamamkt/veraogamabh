@@ -1001,6 +1001,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   xhr.send();
 });
+
 // TABELA SUNLESS MAR
 document.addEventListener("DOMContentLoaded", function() {
   // URL do arquivo txt
@@ -1038,6 +1039,48 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index === 0) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
+        
+        // Adiciona a linha ao corpo da tabela
+        tableBody.appendChild(row);
+      });
+    }
+  };
+
+  xhr.send();
+});
+
+// TABELA SUNLESS MAR BA
+document.addEventListener("DOMContentLoaded", function() {
+  // URL do arquivo txt
+  var txtFile = 'dados/dados_sunless_mar_ba.txt';
+
+  // Cria um objeto XMLHttpRequest
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', txtFile, true);
+
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      // Obtém o texto do arquivo
+      var txtData = xhr.responseText;
+
+      // Divide o texto em linhas (cada linha é separada por uma nova linha)
+      var lines = txtData.split('\n');
+      var tableBody = document.querySelector("#dados_sunless_mar_ba tbody");
+
+      // Itera sobre cada linha
+      lines.forEach(function(line, index) {
+        // Divide a linha em colunas com base na tabulação
+        var columns = line.split('\t');
+
+        // Cria uma nova linha na tabela
+        var row = document.createElement('tr');
+
+        // Adiciona cada coluna à linha
+        columns.forEach(function(column) {
+          var cell = document.createElement('td');
+          cell.textContent = column;
+          row.appendChild(cell);
+        });
         
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
@@ -1095,6 +1138,48 @@ document.addEventListener("DOMContentLoaded", function() {
   xhr.send();
 });
 
+// TABELA SUNLESS SOL BA
+document.addEventListener("DOMContentLoaded", function() {
+  // URL do arquivo txt
+  var txtFile = 'dados/dados_sunless_sol_ba.txt';
+
+  // Cria um objeto XMLHttpRequest
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', txtFile, true);
+
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      // Obtém o texto do arquivo
+      var txtData = xhr.responseText;
+
+      // Divide o texto em linhas (cada linha é separada por uma nova linha)
+      var lines = txtData.split('\n');
+      var tableBody = document.querySelector("#dados_sunless_sol_ba tbody");
+
+      // Itera sobre cada linha
+      lines.forEach(function(line, index) {
+        // Divide a linha em colunas com base na tabulação
+        var columns = line.split('\t');
+
+        // Cria uma nova linha na tabela
+        var row = document.createElement('tr');
+
+        // Adiciona cada coluna à linha
+        columns.forEach(function(column) {
+          var cell = document.createElement('td');
+          cell.textContent = column;
+          row.appendChild(cell);
+        });
+        
+        // Adiciona a linha ao corpo da tabela
+        tableBody.appendChild(row);
+      });
+    }
+  };
+
+  xhr.send();
+});
+
 // TABELA SUNLESS AREIA
 document.addEventListener("DOMContentLoaded", function() {
   // URL do arquivo txt
@@ -1132,6 +1217,48 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index === 0) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
+        
+        // Adiciona a linha ao corpo da tabela
+        tableBody.appendChild(row);
+      });
+    }
+  };
+
+  xhr.send();
+});
+
+// TABELA SUNLESS AREIA BA
+document.addEventListener("DOMContentLoaded", function() {
+  // URL do arquivo txt
+  var txtFile = 'dados/dados_sunless_areia_ba.txt';
+
+  // Cria um objeto XMLHttpRequest
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', txtFile, true);
+
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      // Obtém o texto do arquivo
+      var txtData = xhr.responseText;
+
+      // Divide o texto em linhas (cada linha é separada por uma nova linha)
+      var lines = txtData.split('\n');
+      var tableBody = document.querySelector("#dados_sunless_areia_ba tbody");
+
+      // Itera sobre cada linha
+      lines.forEach(function(line, index) {
+        // Divide a linha em colunas com base na tabulação
+        var columns = line.split('\t');
+
+        // Cria uma nova linha na tabela
+        var row = document.createElement('tr');
+
+        // Adiciona cada coluna à linha
+        columns.forEach(function(column) {
+          var cell = document.createElement('td');
+          cell.textContent = column;
+          row.appendChild(cell);
+        });
         
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
