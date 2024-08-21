@@ -1035,7 +1035,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0 || index === 1 || index === 2) { // Adiciona a classe às linhas 1 e 2
+        if (index === 0) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
         
@@ -1082,7 +1082,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0 || index === 1 || index === 2) { // Adiciona a classe às linhas 1 e 2
+        if (index === 0) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
         
@@ -1129,7 +1129,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0 || index === 1 || index === 2) { // Adiciona a classe às linhas 1 e 2
+        if (index === 0) { // Adiciona a classe às linhas 1 e 2
           row.classList.add('bold-data-row');
         }
         
