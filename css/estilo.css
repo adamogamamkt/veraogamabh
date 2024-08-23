@@ -385,6 +385,10 @@ th, td {
     background-image: url('../images/bg_botao_09.jpg');
 }
 
+.btn-10 {
+    background-image: url('../images/bg_botao_10.jpg');
+}
+
 /* Cor de fundo ao passar o mouse */
 .btn-1:hover::before {
     background-color: rgba(174, 154, 100, 0.8); /* Loreal DPGP */
@@ -420,6 +424,10 @@ th, td {
 
 .btn-9:hover::before {
     background-color: rgba(249, 108, 3, 0.8); /* Cenoura&Bronze */
+}
+
+.btn-10:hover::before {
+    background-color: rgba(106, 224, 11, 0.8); /* Cenoura&Bronze */
 }
 
 /* MOBILE */
