@@ -150,9 +150,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0 ||              // Primeira linha
-          index === 1 ||              // Segunda linha
-          index === lines.length - 1) { // Última linha
+        if (index === lines.length - 1) { // Última linha
         row.classList.add('bold-data-row');
         }
         
@@ -246,9 +244,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === 0 ||              // Primeira linha
-          index === 1 ||              // Segunda linha
-          index === lines.length - 1) { // Última linha
+        if (index === lines.length - 1) { // Última linha
         row.classList.add('bold-data-row');
       }
         
