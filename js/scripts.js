@@ -148,11 +148,6 @@ document.addEventListener("DOMContentLoaded", function() {
           cell.textContent = column;
           row.appendChild(cell);
         });
-
-        // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === lines.length - 1) { // Última linha
-        row.classList.add('bold-data-row');
-        }
         
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
@@ -195,11 +190,6 @@ document.addEventListener("DOMContentLoaded", function() {
           cell.textContent = column;
           row.appendChild(cell);
         });
-
-        // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === lines.length - 1) { // Última linha
-        row.classList.add('bold-data-row');
-      }
         
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
@@ -242,11 +232,6 @@ document.addEventListener("DOMContentLoaded", function() {
           cell.textContent = column;
           row.appendChild(cell);
         });
-
-        // Adiciona a classe 'bold-data-row' às linhas desejadas
-        if (index === lines.length - 1) { // Última linha
-        row.classList.add('bold-data-row');
-      }
         
         // Adiciona a linha ao corpo da tabela
         tableBody.appendChild(row);
