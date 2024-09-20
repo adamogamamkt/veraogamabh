@@ -40,8 +40,17 @@ h4 {
     width: 30%;
 }
 
+.logo_combos {
+    width: 20%;
+}
+
 .logo_fornecedor {
     width: 15%;
+}
+
+.logo_fornecedor_combos {
+    width: 25%;
+    padding-bottom: 10px;
 }
 
 .logo_footer {
